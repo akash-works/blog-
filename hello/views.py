@@ -22,6 +22,6 @@ def samp_post(request):
     return render(request,"post.html")
     
 def aka(request):
-    return HttpResponse(request ,"akash page")    
+    return HttpResponse("akash page")    
 def sum (request):
     return HttpResponse(request ,"akash sen")    
