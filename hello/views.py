@@ -25,3 +25,6 @@ def aka(request):
     return HttpResponse("akash page")    
 def sum (request):
     return HttpResponse("akash sen")    
+
+def a(request):
+    return HttpResponse("this is good")
