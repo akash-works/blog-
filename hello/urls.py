@@ -7,6 +7,7 @@ urlpatterns = [
     path('contact/', contact,name="contact.html"),
     path('post/', samp_post,name="post.html"),
     path('aka/', aka,name="aka"),
+    path('sum/', sum,name="sum"),
     
     
 ]
